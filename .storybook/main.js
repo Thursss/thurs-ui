@@ -2,6 +2,7 @@ module.exports = {
   "stories": [
     "../src/**/*.stories.mdx",
     "../src/components/**/*.stories.@(js|jsx|ts|tsx)",
+    "../src/components/thurs-ui/**/*.stories.@(js|jsx|ts|tsx)",
     "../src/components/chart-echarts/**/*.stories.@(js|jsx|ts|tsx)",
   ],
   "addons": [

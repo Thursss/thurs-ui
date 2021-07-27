@@ -8,7 +8,9 @@ export default {
   component: TestChart,
 } as ComponentMeta<typeof TestChart>
 
-const Template: ComponentStory<typeof TestChart> = (args) => <TestChart {...args} />
+const Template: ComponentStory<typeof TestChart> = (args) => (
+  <TestChart {...args} />
+)
 
 export const BaseTestChart = Template.bind({})
 BaseTestChart.args = {
@@ -18,6 +20,6 @@ BaseTestChart.args = {
     { value: 735, name: '直接访问' },
     { value: 580, name: '邮件营销' },
     { value: 484, name: '联盟广告' },
-    { value: 300, name: '视频广告' }
-  ]
+    { value: 300, name: '视频广告' },
+  ],
 }

@@ -4,7 +4,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react'
 import { Text } from './Text'
 
 export default {
-  title: 'Example/Text',
+  title: 'Example/thurs-ui/Text',
   component: Text,
 } as ComponentMeta<typeof Text>
 
