@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Header } from '../Header/Header'
+import { Header } from '../../thurs-ui/Header/Header'
 import './page.css'
 
 interface PageProps {

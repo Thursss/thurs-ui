@@ -2,10 +2,10 @@ import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
 import { Page } from './Page'
-import * as HeaderStories from '../Header/Header.stories'
+import * as HeaderStories from '../../thurs-ui/Header/Header.stories'
 
 export default {
-  title: 'Example/thurs-ui/Page',
+  title: 'Page/Page',
   component: Page,
 } as ComponentMeta<typeof Page>
 
