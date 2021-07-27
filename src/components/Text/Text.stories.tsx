@@ -12,5 +12,5 @@ const Template: ComponentStory<typeof Text> = (args) => <Text {...args} />
 
 export const BaseText = Template.bind({})
 BaseText.args = {
-  text: 'xxxxxx',
+  text: '文本',
 }
