@@ -1,20 +1,17 @@
 import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
-import { TestChart } from './TestChart'
+import { Pie } from './Pie'
 
 export default {
-  title: 'Example/chart-echarts/TestChart',
-  component: TestChart,
-} as ComponentMeta<typeof TestChart>
+  title: 'Example/chart-echarts/Pie',
+  component: Pie,
+} as ComponentMeta<typeof Pie>
 
-const Template: ComponentStory<typeof TestChart> = (args) => (
-  <TestChart {...args} />
-)
+const Template: ComponentStory<typeof Pie> = (args) => <Pie {...args} />
 
 export const BaseTestChart = Template.bind({})
 BaseTestChart.args = {
-  title: '用户访问来源',
   data: [
     { value: 1048, name: '搜索引擎' },
     { value: 735, name: '直接访问' },

@@ -10,7 +10,7 @@ interface PageProps {
   onCreateAccount: () => void
 }
 
-export const Page = ({
+export const Page: React.FC = ({
   user,
   onLogin,
   onLogout,

@@ -23,10 +23,10 @@ const Styles = styled.div`
   width: 600px;
 `
 
-export const TestChart = ({
+export const Pie = ({
   option,
-  title,
-  subtext,
+  title = '用户访问来源',
+  subtext = '纯属虚构',
   outRadius = '50%',
   inRadius = '0%',
   data,
