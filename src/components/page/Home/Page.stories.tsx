@@ -5,7 +5,7 @@ import { Page } from './Page'
 import * as HeaderStories from '../../thurs-ui/Header/Header.stories'
 
 export default {
-  title: 'Page/Page',
+  title: 'Page/Home',
   component: Page,
 } as ComponentMeta<typeof Page>
 

@@ -1,10 +1,10 @@
 import { useRef, useEffect } from 'react'
 import { ECharts, init } from 'echarts'
 import styled from 'styled-components'
-import { type } from 'os'
 
-interface TestChartProps {
-  option?: object
+import { BaseEChartOptionProps } from '../../../common/chartType'
+
+interface TestChartProps extends BaseEChartOptionProps {
   title?: string
   subtext?: string
   outRadius?: string
@@ -19,8 +19,8 @@ interface TestChartProps {
 type legendAlignProp = 'left' | 'right'
 
 const Styles = styled.div`
-  height: 500px;
-  width: 500px;
+  height: 600px;
+  width: 600px;
 `
 
 export const TestChart = ({
